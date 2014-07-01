@@ -1,5 +1,6 @@
 import java.awt.*;
 import javax.swing.*;
+
 import java.awt.event.*;
 
 public class FirstAppGUI {
@@ -18,7 +19,8 @@ public class FirstAppGUI {
 		
 		@Override
 		public void actionPerformed(ActionEvent ev) {
-			System.exit(0);
+//			System.exit(0);
+			JOptionPane.showMessageDialog(null, "bla 1", "bla bla 2", 0);
 		}
 	}
 	
